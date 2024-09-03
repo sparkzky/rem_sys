@@ -87,3 +87,5 @@ all_user_recommendations.show(truncate=False)
 all_user_recommendations.write.mode("overwrite").saveAsTable("zky_rem.rem_result")
 
 spark.stop()
+
+
